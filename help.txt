@@ -7,10 +7,15 @@ shape: 25*4
 describe:
 hours = min: 1,10, max: 9.20
 scores = min: 17, max: 95
+practice = min: 0.20, max: 6,20
+TeamWork = min: 0.0 , max: 6
 
 info:
 hours = (25, 0) float
 scores = (25, 0) int
+practice = (25, 0) float
+teamwork = (25, 0) folat
+
 
 plot:
 Hours v Scores :
@@ -27,10 +32,30 @@ predict 3 number random :
 data ha besurate khati va manteghi nesbat be saat dars ro be afzayesh ast 
 prediction 3 number random per total data:
 nesbat manteghi va dorosti az data ha gharar darand
+x_multifeature and prediction data:
+data hayre prediction shode ba mogheiyat khubi az data haye test gharar gerefte
+plot multifeature and data:
+sort shodan data ha va rasm khat ke az beyn dataha migizarad
+y actual v prediction multifeature data:
+baze x : 20-73 , baze y : 18-75
+
 
 evaluation:
 mae = 4.18, mse = 21.56 , rmse = 4.64, r2score = 0.94
 compale:
 Diffent = 3.11, -6.73, -6.35, 3.20, 1,50
 predict 3 number random: 36.69, 51.36, 119.79 
+
+intersept multifeature:
+8.373667118452204
+
+coef multifeatrure:
+[H6.7778127 P-0.03200033  T5.07424529]
+
+intersept onefeature :
+2.01816004
+
+coef onefeature :
+9.91065648
+
 
