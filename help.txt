@@ -1,6 +1,8 @@
 source ~/anaconda3/bin/activate root
-describe Student_Scores:
+shape onefeature Student_Scores:
 shape:25*2
+shape multifeature :
+shape: 25*4
 
 describe:
 hours = min: 1,10, max: 9.20
