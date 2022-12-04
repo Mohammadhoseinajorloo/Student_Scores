@@ -38,13 +38,23 @@ plot multifeature and data:
 sort shodan data ha va rasm khat ke az beyn dataha migizarad
 y actual v prediction multifeature data:
 baze x : 20-73 , baze y : 18-75
-
+evaluation test size :
+onefeature = 70-30
+multifeature = 60-40
 
 evaluation:
+onefeature :
 mae = 4.18, mse = 21.56 , rmse = 4.64, r2score = 0.94
+multifeature :
+mae = 3.02, mse = 12.91 , rmse = 3.59, r2score = 0.96 (5 ok)
+
 compale:
-Diffent = 3.11, -6.73, -6.35, 3.20, 1,50
-predict 3 number random: 36.69, 51.36, 119.79 
+Diffent actual data and predicteion onefeature = 3.11, -6.73, -6.35, 3.20, 1,50
+Diffent prediction multifeature and prediction onefeature = 1.64 , -1.16, -1.68, 3.54, -1.57 (4 ok 1 not ok)
+predict 3 number random onefeature:
+ 36.69, 51.36, 119.79 
+redict 3 number random multifeature:
+32.29, 47.52, 104.72 
 
 intersept multifeature:
 8.373667118452204
