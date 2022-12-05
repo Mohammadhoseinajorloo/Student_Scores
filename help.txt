@@ -69,3 +69,10 @@ coef onefeature :
 9.91065648
 
 
+how best score : 0.986 tw x3 degree 19 test size 60-40
+
+
+
+
+
+
